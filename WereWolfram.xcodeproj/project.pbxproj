@@ -7,21 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38C1FC3C31A22680C66B4D62 /* Pods_WereWolfram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F981D2B81837D94F5F0B7DB /* Pods_WereWolfram.framework */; };
+		409316F720FBBDE600915B74 /* getResult_Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409316F620FBBDE600915B74 /* getResult_Helper.swift */; };
+		409316FA20FBBFEF00915B74 /* Pod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409316F920FBBFEF00915B74 /* Pod.swift */; };
+		409316FC20FBD41100915B74 /* PublicVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409316FB20FBD41100915B74 /* PublicVariables.swift */; };
+		40BECD0820FA67B800F7C0E4 /* PodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BECD0720FA67B800F7C0E4 /* PodCell.swift */; };
+		40BECD0D20FA7C2500F7C0E4 /* PaddingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BECD0C20FA7C2500F7C0E4 /* PaddingLabel.swift */; };
+		40D3456F20FDE755005A1A55 /* PodTextOnlyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D3456E20FDE755005A1A55 /* PodTextOnlyCell.swift */; };
+		40D3457120FF342E005A1A55 /* PodTextsOnlyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D3457020FF342E005A1A55 /* PodTextsOnlyCell.swift */; };
 		40E7B57C20F9C1FF00D74112 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E7B57B20F9C1FF00D74112 /* AppDelegate.swift */; };
-		40E7B57E20F9C1FF00D74112 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E7B57D20F9C1FF00D74112 /* ViewController.swift */; };
 		40E7B58120F9C1FF00D74112 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40E7B57F20F9C1FF00D74112 /* Main.storyboard */; };
 		40E7B58320F9C20200D74112 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40E7B58220F9C20200D74112 /* Assets.xcassets */; };
 		40E7B58620F9C20200D74112 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40E7B58420F9C20200D74112 /* LaunchScreen.storyboard */; };
+		40E7B59020F9CCE000D74112 /* HomeTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E7B58F20F9CCE000D74112 /* HomeTVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F981D2B81837D94F5F0B7DB /* Pods_WereWolfram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WereWolfram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		409316F620FBBDE600915B74 /* getResult_Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getResult_Helper.swift; sourceTree = "<group>"; };
+		409316F920FBBFEF00915B74 /* Pod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pod.swift; sourceTree = "<group>"; };
+		409316FB20FBD41100915B74 /* PublicVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicVariables.swift; sourceTree = "<group>"; };
+		40BECD0720FA67B800F7C0E4 /* PodCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodCell.swift; sourceTree = "<group>"; };
+		40BECD0C20FA7C2500F7C0E4 /* PaddingLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingLabel.swift; sourceTree = "<group>"; };
+		40D3456E20FDE755005A1A55 /* PodTextOnlyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodTextOnlyCell.swift; sourceTree = "<group>"; };
+		40D3457020FF342E005A1A55 /* PodTextsOnlyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodTextsOnlyCell.swift; sourceTree = "<group>"; };
 		40E7B57820F9C1FF00D74112 /* WereWolfram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WereWolfram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40E7B57B20F9C1FF00D74112 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		40E7B57D20F9C1FF00D74112 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		40E7B58020F9C1FF00D74112 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		40E7B58220F9C20200D74112 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40E7B58520F9C20200D74112 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40E7B58720F9C20200D74112 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40E7B58F20F9CCE000D74112 /* HomeTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTVC.swift; sourceTree = "<group>"; };
+		5044D4F9AC9DEB9031B762F8 /* Pods-WereWolfram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WereWolfram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WereWolfram/Pods-WereWolfram.debug.xcconfig"; sourceTree = "<group>"; };
+		9C5814700F1E829FEFF956ED /* Pods-WereWolfram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WereWolfram.release.xcconfig"; path = "Pods/Target Support Files/Pods-WereWolfram/Pods-WereWolfram.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +47,54 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38C1FC3C31A22680C66B4D62 /* Pods_WereWolfram.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		409316F520FBBDB400915B74 /* HomeTVC Helper */ = {
+			isa = PBXGroup;
+			children = (
+				409316F620FBBDE600915B74 /* getResult_Helper.swift */,
+			);
+			path = "HomeTVC Helper";
+			sourceTree = "<group>";
+		};
+		409316F820FBBE4700915B74 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				409316F920FBBFEF00915B74 /* Pod.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		40BECD0220FA07CD00F7C0E4 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				40BECD0720FA67B800F7C0E4 /* PodCell.swift */,
+				40D3456E20FDE755005A1A55 /* PodTextOnlyCell.swift */,
+				40D3457020FF342E005A1A55 /* PodTextsOnlyCell.swift */,
+			);
+			path = CustomCells;
+			sourceTree = "<group>";
+		};
+		40BECD0B20FA7C1000F7C0E4 /* Custom UI */ = {
+			isa = PBXGroup;
+			children = (
+				40BECD0C20FA7C2500F7C0E4 /* PaddingLabel.swift */,
+			);
+			path = "Custom UI";
+			sourceTree = "<group>";
+		};
 		40E7B56F20F9C1FE00D74112 = {
 			isa = PBXGroup;
 			children = (
 				40E7B57A20F9C1FF00D74112 /* WereWolfram */,
 				40E7B57920F9C1FF00D74112 /* Products */,
+				FCCE07441A415E48DBD50AD0 /* Pods */,
+				97769F35BE374A2B0932F51E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +109,36 @@
 		40E7B57A20F9C1FF00D74112 /* WereWolfram */ = {
 			isa = PBXGroup;
 			children = (
+				409316F820FBBE4700915B74 /* Model */,
+				40BECD0B20FA7C1000F7C0E4 /* Custom UI */,
 				40E7B57B20F9C1FF00D74112 /* AppDelegate.swift */,
-				40E7B57D20F9C1FF00D74112 /* ViewController.swift */,
+				40BECD0220FA07CD00F7C0E4 /* CustomCells */,
 				40E7B57F20F9C1FF00D74112 /* Main.storyboard */,
 				40E7B58220F9C20200D74112 /* Assets.xcassets */,
 				40E7B58420F9C20200D74112 /* LaunchScreen.storyboard */,
 				40E7B58720F9C20200D74112 /* Info.plist */,
+				40E7B58F20F9CCE000D74112 /* HomeTVC.swift */,
+				409316F520FBBDB400915B74 /* HomeTVC Helper */,
+				409316FB20FBD41100915B74 /* PublicVariables.swift */,
 			);
 			path = WereWolfram;
+			sourceTree = "<group>";
+		};
+		97769F35BE374A2B0932F51E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F981D2B81837D94F5F0B7DB /* Pods_WereWolfram.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FCCE07441A415E48DBD50AD0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5044D4F9AC9DEB9031B762F8 /* Pods-WereWolfram.debug.xcconfig */,
+				9C5814700F1E829FEFF956ED /* Pods-WereWolfram.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +148,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 40E7B58A20F9C20200D74112 /* Build configuration list for PBXNativeTarget "WereWolfram" */;
 			buildPhases = (
+				25A74CE861442B002ED72524 /* [CP] Check Pods Manifest.lock */,
 				40E7B57420F9C1FF00D74112 /* Sources */,
 				40E7B57520F9C1FF00D74112 /* Frameworks */,
 				40E7B57620F9C1FF00D74112 /* Resources */,
+				791E532412F52370670B0550 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +209,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		25A74CE861442B002ED72524 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WereWolfram-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		791E532412F52370670B0550 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WereWolfram/Pods-WereWolfram-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/TBEmptyDataSet/TBEmptyDataSet.framework",
+				"${BUILT_PRODUCTS_DIR}/TagListView/TagListView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TBEmptyDataSet.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TagListView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WereWolfram/Pods-WereWolfram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		40E7B57420F9C1FF00D74112 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40E7B57E20F9C1FF00D74112 /* ViewController.swift in Sources */,
+				40D3457120FF342E005A1A55 /* PodTextsOnlyCell.swift in Sources */,
+				409316FA20FBBFEF00915B74 /* Pod.swift in Sources */,
+				40E7B59020F9CCE000D74112 /* HomeTVC.swift in Sources */,
+				40D3456F20FDE755005A1A55 /* PodTextOnlyCell.swift in Sources */,
+				40BECD0D20FA7C2500F7C0E4 /* PaddingLabel.swift in Sources */,
+				409316FC20FBD41100915B74 /* PublicVariables.swift in Sources */,
+				40BECD0820FA67B800F7C0E4 /* PodCell.swift in Sources */,
 				40E7B57C20F9C1FF00D74112 /* AppDelegate.swift in Sources */,
+				409316F720FBBDE600915B74 /* getResult_Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,11 +413,13 @@
 		};
 		40E7B58B20F9C20200D74112 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5044D4F9AC9DEB9031B762F8 /* Pods-WereWolfram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z6SZFEQ64K;
 				INFOPLIST_FILE = WereWolfram/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,11 +433,13 @@
 		};
 		40E7B58C20F9C20200D74112 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C5814700F1E829FEFF956ED /* Pods-WereWolfram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z6SZFEQ64K;
 				INFOPLIST_FILE = WereWolfram/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
